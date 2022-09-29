@@ -1,0 +1,79 @@
+#calculator-container {
+    background-color: gray;
+    width: 300px;
+    margin: auto;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#display {
+    height: 80px;
+    background-color: greenyellow;
+    border-radius: 10px;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+#button-grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 70px 70px 70px 70px;
+    margin: auto;
+    padding: 20px;
+}
+
+.keypad {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    background-color: gainsboro;
+    color: black;
+    border-radius: 10px;
+    margin: auto;
+    width: 30px;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer; 
+}
+
+#clear {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    background-color: maroon;
+    color: white;
+    border-radius: 10px;
+    margin: auto;
+    width: 30px;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer; 
+}
+
+#delete {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    background-color: maroon;
+    color: white;
+    border-radius: 10px;
+    margin: auto;
+    width: 30px;
+    text-align: center;
+    align-items: center;
+    padding: 15px;
+    cursor: pointer; 
+}
+
+.keypad.symbol {
+    background-color: darkgray;
+    color: white;
+}
+
+.keypad.operator {
+    background-color: blue;
+    color: white;
+}
